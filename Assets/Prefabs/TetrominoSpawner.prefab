@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1915919594006136}
+  m_IsPrefabAsset: 1
+--- !u!1 &1915919594006136
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4865908510293398}
+  - component: {fileID: 114318036744158628}
+  m_Layer: 0
+  m_Name: TetrominoSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4865908510293398
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1915919594006136}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.74435294, y: -1.8576441, z: -7.211295}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114318036744158628
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1915919594006136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51e072e8b18527c4e884d033f5948cdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tretrominoPrefabs:
+  - {fileID: 1980671373920492, guid: 70028bcbb03c78543ae0a7cc5fb5a4a7, type: 2}
+  - {fileID: 1136668667117580, guid: 77b12340e66af8049a9cc642cbc33d2c, type: 2}
+  - {fileID: 1555583227717704, guid: e437327db04fe64479a826fb7f2313cc, type: 2}
+  - {fileID: 1933401846667546, guid: efe620c3ae2db2047aec337e354d23fb, type: 2}
+  - {fileID: 1506175913920090, guid: 41e58c185ab9cf045b2a10d040cf3671, type: 2}
+  - {fileID: 1846929057623856, guid: a1d8fcb12b6c2c94c89891f401ae88f0, type: 2}
+  - {fileID: 1782302997711032, guid: 63cab86f1f9966d47a7d7f592bac5731, type: 2}
+  - {fileID: 1771178140765662, guid: 0dffd15f6d581694b92bf49244fe6102, type: 2}
+  colors:
+  - {fileID: 2100000, guid: dd4058b006a5bc5478a078f9e29b22bd, type: 2}
+  - {fileID: 2100000, guid: eeabe1c44e7e89c4f97137c1aadc1a0d, type: 2}
+  - {fileID: 2100000, guid: a69d51e1eb4f2bc4e91c20ae31c1bc53, type: 2}
+  - {fileID: 2100000, guid: 49bb9987a3d45fe4ab6cd177c197da63, type: 2}
+  - {fileID: 2100000, guid: 903406b1663246d42b00721b43c5a153, type: 2}
+  - {fileID: 2100000, guid: cc24b52ee1cbd47498142ad308ca7569, type: 2}
+  - {fileID: 2100000, guid: 476a16d1a786c2841a1960f999d8f8a8, type: 2}
+  - {fileID: 2100000, guid: f8d201791a12ece4a941d3c12927e31b, type: 2}
+  spawnRate: 1
+  side: 1
+  height: 3
+  param: {fileID: 1677399958628844, guid: 45b4423b98658b64e8e81139f6e29119, type: 2}
